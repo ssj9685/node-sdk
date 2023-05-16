@@ -74,6 +74,7 @@ const smartcar = new Smartcar();
 const client = new AuthClient({
   clientId: 'clientId',
   clientSecret: 'clientSecret',
+  redirectUri: 'http://localhost:8000/exchange',
 });
 
 app.get('/', function (req, res) {
