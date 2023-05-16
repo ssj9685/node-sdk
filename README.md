@@ -72,8 +72,8 @@ const port = 8000;
 const smartcar = new Smartcar();
 
 const client = new AuthClient({
-  clientId: 'b592509a-5127-49a7-bdc8-d51f5c72933b',
-  clientSecret: 'b773bb8f-442b-4857-b8b4-765841d8a6c7',
+  clientId: 'clientId',
+  clientSecret: 'clientSecret',
 });
 
 app.get('/', function (req, res) {
